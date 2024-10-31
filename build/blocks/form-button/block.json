@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "popper/form-button",
+  "title": "Form Submit Button",
+  "category": "popper",
+  "icon": "button",
+  "ancestor": [
+    "popper/form"
+  ],
+  "description": "A submission button for forms.",
+  "keywords": [
+    "submit",
+    "button",
+    "form"
+  ],
+  "textdomain": "default",
+  "supports": {
+    "multiple": false,
+    "color": {
+      "background": true,
+      "text": true,
+      "gradients": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    },
+    "__experimentalBorder": {
+      "radius": true,
+      "width": true,
+      "color": true,
+      "style": true
+    },
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Submit"
+    },
+    "align": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "editorScript": "file:./index.js"
+}

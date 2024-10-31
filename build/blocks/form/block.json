@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "popper/form",
+  "title": "Form",
+  "category": "popper",
+  "ancestor": [
+    "popper/popup"
+  ],
+  "allowedBlocks": [
+    "core/paragraph",
+    "core/heading",
+    "popper/form-input",
+    "popper/form-select",
+    "popper/form-multichoices",
+    "popper/form-button",
+    "core/group",
+    "core/columns"
+  ],
+  "description": "A form.",
+  "keywords": [
+    "container",
+    "wrapper",
+    "row",
+    "section"
+  ],
+  "textdomain": "default",
+  "icon": "feedback",
+  "attributes": {
+    "id": {
+      "type": "number"
+    },
+    "method": {
+      "type": "string",
+      "default": "post"
+    },
+    "redirectUrl": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "inserter": true,
+    "multiple": false,
+    "className": true,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true,
+        "link": true
+      }
+    },
+    "layout": {
+      "allowEditing": false
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "styles": [
+    {
+      "name": "regular",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "inline",
+      "label": "Inline form"
+    }
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

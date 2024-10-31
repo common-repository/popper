@@ -1,0 +1,95 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "popper/button",
+  "category": "popper",
+  "ancestor": [
+    "popper/popup"
+  ],
+  "title": "Close Button",
+  "icon": "dismiss",
+  "textdomain": "popper",
+  "attributes": {
+    "text": {
+      "type": "string",
+      "source": "text",
+      "selector": "button.wp-block-popper__close",
+      "default": "Close"
+    },
+    "align": {
+      "type": "string",
+      "default": "right"
+    },
+    "isIcon": {
+      "type": "boolean",
+      "selector": "svg",
+      "default": true
+    },
+    "position": {
+      "type": "string"
+    },
+    "style": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": true,
+    "ariaLabel": true,
+    "lock": false,
+    "multiple": false,
+    "reusable": false,
+    "className": false,
+    "color": {
+      "background": true,
+      "text": true,
+      "gradients": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    }
+  },
+  "example": {
+    "attributes": {
+      "isIcon": true
+    }
+  },
+  "styles": [
+    {
+      "name": "regular",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "rounded",
+      "label": "Rounded black"
+    },
+    {
+      "name": "rounded-alt",
+      "label": "Rounded black alt"
+    },
+    {
+      "name": "squared",
+      "label": "Squared black"
+    },
+    {
+      "name": "squared-alt",
+      "label": "Squared black alt"
+    }
+  ],
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

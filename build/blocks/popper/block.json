@@ -1,0 +1,126 @@
+{
+  "apiVersion": 2,
+  "name": "popper/popup",
+  "title": "Pop up",
+  "icon": "external",
+  "category": "widgets",
+  "description": "A great popup block.",
+  "textdomain": "popper",
+  "supports": {
+    "html": false,
+    "interactivity": true,
+    "multiple": false,
+    "lock": false,
+    "className": true,
+    "reusable": false,
+    "inserter": false,
+    "background": {
+      "backgroundImage": true,
+      "backgroundSize": true
+    },
+    "color": {
+      "text": false
+    },
+    "spacing": {
+      "padding": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "allowedBlocks": [
+    "popper/button",
+    "popper/body"
+  ],
+  "attributes": {
+    "id": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "dialog.wp-block-popper",
+      "attribute": "id"
+    },
+    "uuid": {
+      "type": "number"
+    },
+    "devices": {
+      "type": "array"
+    },
+    "triggers": {
+      "type": "array",
+      "default": []
+    },
+    "settings": {
+      "type": "object",
+      "default": {}
+    },
+    "align": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "dialog.wp-block-popper",
+      "attribute": "data-align"
+    },
+    "animation": {
+      "type": "string"
+    },
+    "boxShadow": {
+      "type": "string",
+      "default": "wp-block-popper__shadow-md"
+    },
+    "borderRadius": {
+      "type": "string",
+      "default": "wp-block-popper__border-md"
+    },
+    "disableScroll": {
+      "type": "boolean",
+      "selector": "dialog.wp-block-popper.no-scroll",
+      "default": false
+    },
+    "overlayColor": {
+      "type": "string"
+    },
+    "minWidth": {
+      "type": "string"
+    }
+  },
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "top-bar",
+      "label": "Top bar"
+    },
+    {
+      "name": "bottom-bar",
+      "label": "Bottom bar"
+    },
+    {
+      "name": "off-canvas",
+      "label": "Off canvas"
+    },
+    {
+      "name": "off-canvas-left",
+      "label": "Off canvas (left)"
+    },
+    {
+      "name": "full-page",
+      "label": "Full Page"
+    }
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend/index.js",
+  "render": "file:./render.php"
+}

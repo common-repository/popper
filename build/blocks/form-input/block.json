@@ -1,0 +1,105 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "__experimental": true,
+  "name": "popper/form-input",
+  "title": "Input Field",
+  "category": "common",
+  "ancestor": [
+    "popper/form"
+  ],
+  "description": "The basic building block for forms.",
+  "keywords": [
+    "input",
+    "form"
+  ],
+  "textdomain": "default",
+  "icon": "forms",
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "text",
+      "selector": "input",
+      "source": "attribute",
+      "attribute": "type"
+    },
+    "id": {
+      "type": "string",
+      "selector": "input",
+      "source": "attribute",
+      "attribute": "id"
+    },
+    "name": {
+      "type": "string",
+      "selector": "input",
+      "source": "attribute",
+      "attribute": "name",
+      "default": ""
+    },
+    "label": {
+      "type": "rich-text",
+      "default": "Label",
+      "selector": "label>span:first-of-type",
+      "source": "rich-text",
+      "__experimentalRole": "content"
+    },
+    "required": {
+      "type": "boolean",
+      "default": false,
+      "selector": "input",
+      "source": "attribute",
+      "attribute": "required"
+    },
+    "placeholder": {
+      "type": "string",
+      "selector": "input",
+      "source": "attribute",
+      "attribute": "placeholder",
+      "__experimentalRole": "content"
+    },
+    "value": {
+      "type": "string",
+      "default": "",
+      "selector": "input",
+      "source": "attribute",
+      "attribute": "value"
+    },
+    "hidden": {
+      "type": "boolean",
+      "selector": "label",
+      "source": "attribute",
+      "attribute": "hidden"
+    }
+  },
+  "supports": {
+    "anchor": false,
+    "className": true,
+    "lock": false,
+    "reusable": false,
+    "spacing": {
+      "__experimentalSkipSerialization": true,
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalSkipSerialization": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "editorScript": "file:./index.js"
+}

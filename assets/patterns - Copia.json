@@ -1,0 +1,191 @@
+[
+  {
+    "id": 136,
+    "title": "Social links",
+    "content": "<!-- wp:popper/popup {\"uuid\":136,\"triggers\":[\"scroll\"],\"animation\":\"puff-in\",\"lock\":{\"move\":false,\"remove\":true},\"className\":\"is-style-default\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"right\":\"0\"}}}} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md is-style-default wp-block-popper__animate\" style=\"padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;--popper-animation:puff-in\" data-id=\"136\" data-triggers=\"[&quot;scroll&quot;]\" data-settings=\"{}\" data-align=\"center left\" id=\"popper-136\"><!-- wp:popper/body {\"style\":{\"spacing\":{\"padding\":{\"right\":\"5px\",\"left\":\"5px\",\"top\":\"0\",\"bottom\":\"0\"}}},\"backgroundColor\":\"white\"} -->\n<div style=\"padding-top:0;padding-right:5px;padding-bottom:0;padding-left:5px\" class=\"wp-block-popper-body has-white-background-color has-background\"><!-- wp:social-links {\"style\":{\"spacing\":{\"blockGap\":{\"top\":\"var:preset|spacing|10\"},\"margin\":{\"top\":\"var:preset|spacing|10\",\"bottom\":\"var:preset|spacing|10\",\"left\":\"0\",\"right\":\"0\"}}},\"layout\":{\"type\":\"flex\",\"orientation\":\"vertical\"}} -->\n<ul class=\"wp-block-social-links\" style=\"margin-top:var(--wp--preset--spacing--10);margin-right:0;margin-bottom:var(--wp--preset--spacing--10);margin-left:0\"><!-- wp:social-link {\"url\":\"#\",\"service\":\"facebook\"} /-->\n\n<!-- wp:social-link {\"url\":\"#\",\"service\":\"github\"} /-->\n\n<!-- wp:social-link {\"url\":\"#\",\"service\":\"wordpress\"} /-->\n\n<!-- wp:social-link {\"url\":\"#\",\"service\":\"x\"} /--></ul>\n<!-- /wp:social-links --></div>\n<!-- /wp:popper/body -->\n\n<!-- wp:popper/button {\"position\":\"outside\",\"style\":{\"typography\":{\"fontSize\":\"0.7rem\"}}} -->\n<div class=\"wp-block-popper__header\"><button class=\"wp-block-popper__close wp-block-popper__close--outside\" style=\"font-size:0.7rem\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button></div>\n<!-- /wp:popper/button --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "Show your social links after 40% of page scroll",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "social",
+      "popup"
+    ],
+    "name": "popper/136"
+  },
+  {
+    "id": 84,
+    "title": "Full page",
+    "content": "<!-- wp:popper/popup {\"uuid\":84,\"triggers\":[\"exit\"],\"lock\":{\"move\":false,\"remove\":true},\"className\":\"is-style-full-page\",\"backgroundColor\":\"white\"} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md is-style-full-page has-white-background-color has-background\" data-id=\"84\" data-triggers=\"[&quot;exit&quot;]\" data-settings=\"{}\" id=\"popper-84\"><!-- wp:popper/button {\"position\":\"outside\"} -->\n<div class=\"wp-block-popper__header\"><button class=\"wp-block-popper__close wp-block-popper__close--outside\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button></div>\n<!-- /wp:popper/button -->\n\n<!-- wp:popper/body {\"width\":\"90%\",\"backgroundColor\":\"white\"} -->\n<div style=\"width:90%\" class=\"wp-block-popper-body has-white-background-color has-background\"><!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column {\"verticalAlignment\":\"top\",\"width\":\"50%\"} -->\n<div class=\"wp-block-column is-vertically-aligned-top\" style=\"flex-basis:50%\"><!-- wp:heading {\"textAlign\":\"center\"} -->\n<h2 class=\"wp-block-heading has-text-align-center\">Grab this exclusive offer</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Learn how you can increase your sales<br> with this funnel builder.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">It's <strong>100% free</strong>. No credit card required.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#0eabe6\"}}} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background wp-element-button\" href=\"https://systeme.io/?sa=sa0181820865b77bd583c54e7e7668a6a77e78f1c7\" style=\"background-color:#0eabe6\">GET FREE OFFER</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"50%\",\"style\":{\"shadow\":\"var:preset|shadow|natural\"}} -->\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"box-shadow:var(--wp--preset--shadow--natural);flex-basis:50%\"><!-- wp:embed {\"url\":\"https://www.youtube.com/watch?v=VauiACh-YGU\",\"type\":\"video\",\"providerNameSlug\":\"youtube\",\"responsive\":true,\"className\":\"wp-embed-aspect-16-9 wp-has-aspect-ratio\"} -->\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=VauiACh-YGU\n</div></figure>\n<!-- /wp:embed --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div>\n<!-- /wp:popper/body --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "popup"
+    ],
+    "name": "popper/84"
+  },
+  {
+    "id": 78,
+    "title": "Promo 4",
+    "content": "<!-- wp:popper/popup {\"uuid\":78,\"devices\":[\"desktop\",\"tablet\",\"mobile\"],\"triggers\":[\"anchor\"],\"settings\":{\"anchor\":{\"anchor\":\"popper-bl\"},\"adblock\":{\"offset\":20},\"scroll\":{\"offset\":20},\"timer\":{\"time\":1}},\"animation\":\"slide-in-left\",\"borderRadius\":\"wp-block-popper__border-none\"} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-none wp-block-popper__animate\" style=\"--popper-animation:slide-in-left\" data-id=\"78\" data-triggers=\"[&quot;anchor&quot;]\" data-devices=\"[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]\" data-settings=\"{&quot;anchor&quot;:{&quot;anchor&quot;:&quot;popper-bl&quot;},&quot;adblock&quot;:{&quot;offset&quot;:20},&quot;scroll&quot;:{&quot;offset&quot;:20},&quot;timer&quot;:{&quot;time&quot;:1}}\" data-align=\"bottom right\" id=\"popper-78\"><!-- wp:popper/button {\"position\":\"outside\",\"style\":{\"typography\":{\"fontSize\":\"12px\"},\"color\":{\"background\":\"#000000\"}},\"lock\":{\"move\":true,\"remove\":false},\"textColor\":\"white\",\"className\":\"is-style-regular\"} -->\n<div class=\"wp-block-popper__header\"><button class=\"has-white-color has-text-color has-background wp-block-popper__close wp-block-popper__close--outside is-style-regular\" style=\"background-color:#000000;font-size:12px\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button></div>\n<!-- /wp:popper/button -->\n\n<!-- wp:popper/body {\"style\":{\"spacing\":{\"padding\":{\"top\":\"20px\",\"right\":\"20px\",\"bottom\":\"20px\",\"left\":\"20px\"}},\"border\":{\"radius\":\"0px\",\"style\":\"dashed\",\"width\":\"4px\"},\"color\":{\"background\":\"#222222\",\"text\":\"#faf9f9\"},\"elements\":{\"link\":{\"color\":{\"text\":\"#faf9f9\"}}}},\"borderColor\":\"vivid-purple\"} -->\n<div style=\"border-style:dashed;border-width:4px;border-radius:0px;color:#faf9f9;background-color:#222222;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px\" class=\"wp-block-popper-body has-border-color has-vivid-purple-border-color has-text-color has-background has-link-color\"><!-- wp:heading {\"level\":6,\"style\":{\"typography\":{\"fontSize\":\"12px\"}},\"textColor\":\"white\"} -->\n<h6 class=\"wp-block-heading has-white-color has-text-color\" style=\"font-size:12px\">FREE GUIDE</h6>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"#faf9f9\"}}},\"color\":{\"text\":\"#faf9f9\"}}} -->\n<h2 class=\"wp-block-heading has-text-color has-link-color\" style=\"color:#faf9f9\">The 5 popups <br>7-figure <br>ecom brands use to <br>drive revenue</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"textColor\":\"white\"} -->\n<p class=\"has-white-color has-text-color\">We studied 100k+ campaigns  on <br>20k websites to find<br>the popup strategies top <br>brands are using.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#9b51e0\"},\"typography\":{\"fontStyle\":\"normal\",\"fontWeight\":\"900\"}},\"fontSize\":\"small\"} -->\n<div class=\"wp-block-button has-custom-font-size has-small-font-size\" style=\"font-style:normal;font-weight:900\"><a class=\"wp-block-button__link has-background wp-element-button\" style=\"background-color:#9b51e0\"><strong>Learn more →</strong></a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:popper/body --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "promo",
+      "popup"
+    ],
+    "name": "popper/78"
+  },
+  {
+    "id": 75,
+    "title": "Promo 3",
+    "content": "<!-- wp:popper/popup {\"uuid\":75,\"devices\":[\"desktop\",\"tablet\",\"mobile\"],\"triggers\":[\"scroll\"],\"settings\":{\"adblock\":{\"offset\":\"20\"},\"scroll\":{\"offset\":\"20\"},\"timer\":{\"time\":1}},\"backgroundColor\":\"#1a4548\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"40px\",\"right\":\"40px\",\"bottom\":\"40px\",\"left\":\"40px\"}}}} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md has-1-a-4548-background-color has-background\" style=\"padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px\" data-id=\"75\" data-modal=\"true\" data-triggers=\"[&quot;scroll&quot;]\" data-devices=\"[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]\" data-settings=\"{&quot;adblock&quot;:{&quot;offset&quot;:&quot;20&quot;},&quot;scroll&quot;:{&quot;offset&quot;:&quot;20&quot;},&quot;timer&quot;:{&quot;time&quot;:1}}\" data-align=\"center center\" id=\"popper-75\"><!-- wp:popper/body {\"style\":{\"border\":{\"width\":\"1px\",\"style\":\"solid\",\"radius\":\"0px\"},\"spacing\":{\"padding\":{\"top\":\"20px\",\"right\":\"20px\",\"bottom\":\"20px\",\"left\":\"20px\"}},\"color\":{\"background\":\"#1a4548\"}},\"borderColor\":\"background\",\"textColor\":\"white\"} -->\n<div style=\"border-style:solid;border-width:1px;border-radius:0px;background-color:#1a4548;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px\" class=\"wp-block-popper-body has-border-color has-background-border-color has-white-color has-text-color has-background\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\"} -->\n<p class=\"has-text-align-center has-background-color has-text-color\">Limited time offer</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"textColor\":\"base-2\"} -->\n<h2 class=\"wp-block-heading has-text-align-center has-base-2-color has-text-color\" id=\"get-off-50\">GET OFF 50%</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\"} -->\n<p class=\"has-text-align-center has-background-color has-text-color\">Get 50% off any product you buy today.<br>Prices go back up at midnight!!!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"textColor\":\"white\",\"style\":{\"color\":{\"background\":\"#d50808\"}}} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link has-white-color has-text-color has-background wp-element-button\" style=\"background-color:#d50808\">SHOP NOW</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:popper/body -->\n\n<!-- wp:popper/button {\"lock\":{\"move\":true,\"remove\":false},\"textColor\":\"white\",\"className\":\"has-background\"} -->\n<button class=\"has-white-color has-text-color wp-block-popper__close has-background has-white-color has-text-color\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button>\n<!-- /wp:popper/button --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "promo",
+      "popup"
+    ],
+    "name": "popper/75"
+  },
+  {
+    "id": 73,
+    "title": "Promo 2",
+    "content": "<!-- wp:popper/popup {\"uuid\":73,\"devices\":[\"desktop\",\"tablet\",\"mobile\"],\"triggers\":[\"anchor\"],\"settings\":{\"anchor\":{\"anchor\":\"apri-popper\"},\"adblock\":{\"offset\":20},\"scroll\":{\"offset\":20},\"timer\":{\"time\":1},\"dismissForVisitors\":{\"period\":true}},\"borderRadius\":\"wp-block-popper__border-sm\",\"overlayColor\":\"#00000059\",\"minWidth\":\"410px\",\"backgroundColor\":\"#ffffff\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"10px\",\"right\":\"10px\",\"bottom\":\"10px\",\"left\":\"10px\"}}}} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-sm has-ffffff-background-color has-background\" style=\"padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;width:410px\" data-id=\"73\" data-modal=\"true\" data-triggers=\"[&quot;anchor&quot;]\" data-devices=\"[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]\" data-settings=\"{&quot;anchor&quot;:{&quot;anchor&quot;:&quot;apri-popper&quot;},&quot;adblock&quot;:{&quot;offset&quot;:20},&quot;scroll&quot;:{&quot;offset&quot;:20},&quot;timer&quot;:{&quot;time&quot;:1},&quot;dismissForVisitors&quot;:{&quot;period&quot;:true}}\" data-align=\"center center\" id=\"popper-73\"><!-- wp:popper/body {\"width\":\"380px\",\"style\":{\"color\":{\"background\":\"#fff\"}}} -->\n<div style=\"background-color:#fff;width:380px\" class=\"wp-block-popper-body has-background\"><!-- wp:group {\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\"><!-- wp:image {\"width\":\"262px\",\"height\":\"auto\",\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"align\":\"center\",\"className\":\"size-full\"} -->\n<figure class=\"wp-block-image aligncenter size-large is-resized size-full\"><img src=\"https://live.staticflickr.com/3152/2303868309_42cd951ba6.jpg\" alt=\"\" style=\"width:262px;height:auto\"/></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"placeholder\":\"Your claim...\",\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-text-align-center has-large-font-size\">My new ebook</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"placeholder\":\"Your claim...\"} -->\n<p class=\"has-text-align-center\">If you're looking for a fast <br>way to rank high on Google.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\",\"orientation\":\"vertical\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#28a7d9\"}}} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background wp-element-button\" style=\"background-color:#28a7d9\">DOWNLOAD NOW</a></div>\n<!-- /wp:button -->\n\n<!-- wp:button {\"style\":{\"color\":{\"background\":\"#fff\",\"text\":\"#000\"}},\"className\":\"close-popper\",\"fontSize\":\"small\"} -->\n<div class=\"wp-block-button has-custom-font-size close-popper has-small-font-size\"><a class=\"wp-block-button__link has-text-color has-background wp-element-button\" style=\"color:#000;background-color:#fff\">No thanks</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:popper/body -->\n\n<!-- wp:popper/button {\"style\":{\"color\":{\"text\":\"#ffffff\"}},\"lock\":{\"move\":true,\"remove\":false},\"textColor\":\"black\"} -->\n<button class=\"has-black-color has-text-color wp-block-popper__close\" style=\"color:#ffffff\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button>\n<!-- /wp:popper/button --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "promo",
+      "popup"
+    ],
+    "name": "popper/promo-2"
+  },
+  {
+    "id": 71,
+    "title": "Promo",
+    "content": "<!-- wp:popper/popup {\"uuid\":71,\"devices\":[\"desktop\",\"tablet\",\"mobile\"],\"triggers\":[\"exit\"],\"settings\":{\"adblock\":{\"offset\":20},\"scroll\":{\"offset\":20},\"timer\":{\"time\":1},\"dismissForVisitors\":{\"period\":true}},\"style\":{\"color\":{\"background\":\"#ffd100\"}},\"metadata\":{\"categories\":[\"promo\",\"popup\"],\"patternName\":\"popper/promo\",\"name\":\"Promo\"}} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md has-background\" style=\"background-color:#ffd100\" data-id=\"71\" data-modal=\"true\" data-triggers=\"[&quot;exit&quot;]\" data-devices=\"[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]\" data-settings=\"{&quot;adblock&quot;:{&quot;offset&quot;:20},&quot;scroll&quot;:{&quot;offset&quot;:20},&quot;timer&quot;:{&quot;time&quot;:1},&quot;dismissForVisitors&quot;:{&quot;period&quot;:true}}\" data-align=\"center center\" id=\"popper-71\"><!-- wp:popper/button -->\n<button class=\"wp-block-popper__close\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button>\n<!-- /wp:popper/button -->\n\n<!-- wp:popper/body {\"width\":\"450px\"} -->\n<div style=\"width:450px\" class=\"wp-block-popper-body\"><!-- wp:group {\"style\":{\"spacing\":{\"blockGap\":\"var:preset|spacing|10\"}},\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\"><!-- wp:heading {\"textAlign\":\"center\",\"style\":{\"typography\":{\"fontSize\":\"62px\"},\"spacing\":{\"padding\":{\"top\":\"0\",\"bottom\":\"0\"}}},\"textColor\":\"black\"} -->\n<h2 class=\"wp-block-heading has-text-align-center has-black-color has-text-color\" style=\"padding-top:0;padding-bottom:0;font-size:62px\">BLACK<br>FRIDAY</h2>\n<!-- /wp:heading -->\n\n<!-- wp:group {\"style\":{\"spacing\":{\"blockGap\":\"var:preset|spacing|10\"}},\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\"><!-- wp:heading {\"textAlign\":\"center\",\"style\":{\"typography\":{\"fontStyle\":\"normal\",\"fontWeight\":\"100\",\"lineHeight\":\"1\"},\"spacing\":{\"padding\":{\"top\":\"0\",\"bottom\":\"0\"}}}} -->\n<h2 class=\"wp-block-heading has-text-align-center\" style=\"padding-top:0;padding-bottom:0;font-style:normal;font-weight:100;line-height:1\"><strong>UP to 70%</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"textColor\":\"foreground\",\"style\":{\"color\":{\"background\":\"#000000\"}},\"fontSize\":\"medium\"} -->\n<div class=\"wp-block-button has-custom-font-size has-medium-font-size\"><a class=\"wp-block-button__link has-foreground-color has-text-color has-background wp-element-button\" style=\"background-color:#000000\"><strong>SHOP NOW</strong></a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"fontSize\":\"14px\"}}} -->\n<p class=\"has-text-align-center\" style=\"font-size:14px\">with order of $25 or more</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group --></div>\n<!-- /wp:group --></div>\n<!-- /wp:popper/body --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "promo",
+      "popup"
+    ],
+    "name": "popper/promo"
+  },
+  {
+    "id": 67,
+    "title": "Top bar 2",
+    "content": "<!-- wp:popper/popup {\"uuid\":67,\"devices\":[\"desktop\",\"tablet\",\"mobile\"],\"triggers\":[\"exit\"],\"lock\":{\"move\":false,\"remove\":true},\"className\":\"fullwidth is-style-top-bar\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"right\":\"0\"}},\"margin\":\"\",\"border\":{\"radius\":\"0px\"}}} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md fullwidth is-style-top-bar\" style=\"border-radius:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0\" data-id=\"67\" data-triggers=\"[&quot;exit&quot;]\" data-devices=\"[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]\" data-settings=\"{}\" data-align=\"top center\" id=\"popper-67\"><!-- wp:popper/button {\"position\":\"inside\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|base-2\"}}}},\"textColor\":\"base-2\"} -->\n<button class=\"has-base-2-color has-text-color has-link-color wp-block-popper__close\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button>\n<!-- /wp:popper/button -->\n\n<!-- wp:popper/body {\"style\":{\"color\":{\"background\":\"#185f91\"},\"border\":{\"radius\":\"0px\"}}} -->\n<div style=\"border-radius:0px;background-color:#185f91\" class=\"wp-block-popper-body has-background\"><!-- wp:group {\"style\":{\"spacing\":{\"padding\":{\"top\":\"var:preset|spacing|10\",\"bottom\":\"var:preset|spacing|10\"}}},\"layout\":{\"type\":\"flex\",\"flexWrap\":\"nowrap\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-group\" style=\"padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)\"><!-- wp:paragraph {\"align\":\"left\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|base-2\"}}}},\"textColor\":\"base-2\"} -->\n<p class=\"has-text-align-left has-base-2-color has-text-color has-link-color\"><strong>Get our brandly new ebook for free </strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:popper/form {\"id\":67,\"className\":\"is-style-inline\"} -->\n<form class=\"wp-block-popper-form is-style-inline\" data-id=\"67\"><!-- wp:popper/form-input {\"lock\":{\"move\":false,\"remove\":true}} -->\n<div class=\"wp-block-popper-form-input\"><label class=\"wp-block-form-input__label\" for=\"popper-email-0\"><span class=\"wp-block-form-input__label-content\">Email</span><span class=\"required\">*</span></label><input class=\"\" type=\"email\" name=\"email\" required aria-required=\"true\" placeholder=\"Your email\" id=\"popper-email-0\"/></div>\n<!-- /wp:popper/form-input -->\n\n<!-- wp:popper/form-button {\"text\":\"GO\",\"style\":{\"color\":{\"background\":\"#bc1717\"}}} -->\n<button type=\"submit\" class=\"wp-block-popper-form-button wp-element-button alignleft has-background\" style=\"background-color:#bc1717\"><span>GO</span><svg version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><path opacity=\"0.2\" fill=\"#000\" d=\"M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946 s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634 c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z\"></path><path fill=\"#000\" d=\"M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0 C22.32,8.481,24.301,9.057,26.013,10.047z\"><animateTransform attributeType=\"xml\" attributeName=\"transform\" type=\"rotate\" from=\"0 20 20\" to=\"360 20 20\" dur=\"0.5s\" repeatCount=\"indefinite\"></animateTransform></path></svg></button>\n<!-- /wp:popper/form-button --><div class=\"popper-message\"></div></form>\n<!-- /wp:popper/form --></div>\n<!-- /wp:group --></div>\n<!-- /wp:popper/body --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": false,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "top-bar",
+      "popup"
+    ],
+    "name": "popper/67"
+  },
+  {
+    "id": 65,
+    "title": "Top bar",
+    "content": "<!-- wp:popper/popup {\"uuid\":65,\"devices\":[\"desktop\",\"tablet\",\"mobile\"],\"triggers\":[\"exit\"],\"lock\":{\"move\":false,\"remove\":true},\"className\":\"fullwidth is-style-top-bar\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"right\":\"0\"}},\"margin\":\"\"}} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md fullwidth is-style-top-bar\" style=\"padding-top:0;padding-right:0;padding-bottom:0;padding-left:0\" data-id=\"65\" data-triggers=\"[&quot;exit&quot;]\" data-devices=\"[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]\" data-settings=\"{}\" data-align=\"top center\" id=\"popper-65\"><!-- wp:popper/button {\"position\":\"corner\"} -->\n<button class=\"wp-block-popper__close wp-block-popper__close--corner\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button>\n<!-- /wp:popper/button -->\n\n<!-- wp:popper/body {\"style\":{\"color\":{\"background\":\"#de3f0f\"},\"border\":{\"radius\":\"0px\"}}} -->\n<div style=\"border-radius:0px;background-color:#de3f0f\" class=\"wp-block-popper-body has-background\"><!-- wp:group {\"style\":{\"spacing\":{\"padding\":{\"top\":\"var:preset|spacing|10\",\"bottom\":\"var:preset|spacing|10\"}}},\"layout\":{\"type\":\"flex\",\"flexWrap\":\"nowrap\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-group\" style=\"padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)\"><!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\"><strong>Get 20% discount just for today! </strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"width\":100} -->\n<div class=\"wp-block-button has-custom-width wp-block-button__width-100\"><a class=\"wp-block-button__link wp-element-button\">GET OFFER</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:group --></div>\n<!-- /wp:popper/body --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "top-bar",
+      "popup"
+    ],
+    "name": "popper/top-bar"
+  },
+  {
+    "id": 62,
+    "title": "Ad block 2",
+    "content": "<!-- wp:popper/popup {\"uuid\":62,\"devices\":[\"mobile\",\"tablet\",\"desktop\"],\"triggers\":[\"adBlock\"],\"settings\":{\"adBlock\":{\"scrollPercent\":30}},\"overlayColor\":\"#ff0000cc\",\"minWidth\":\"420px\",\"lock\":{\"move\":false,\"remove\":true},\"backgroundColor\":\"base-2\"} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md has-base-2-background-color has-background\" style=\"width:420px\" data-id=\"62\" data-modal=\"true\" data-triggers=\"[&quot;adBlock&quot;]\" data-devices=\"[&quot;mobile&quot;,&quot;tablet&quot;,&quot;desktop&quot;]\" data-settings=\"{&quot;adBlock&quot;:{&quot;scrollPercent&quot;:30}}\" data-align=\"center center\" id=\"popper-62\"><!-- wp:popper/button {\"position\":\"inside\",\"className\":\"is-style-rounded\"} -->\n<button class=\"wp-block-popper__close is-style-rounded\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button>\n<!-- /wp:popper/button -->\n\n<!-- wp:popper/body {\"style\":{\"spacing\":{\"padding\":{\"top\":\"var:preset|spacing|20\",\"bottom\":\"var:preset|spacing|20\",\"left\":\"var:preset|spacing|20\",\"right\":\"var:preset|spacing|20\"}}},\"backgroundColor\":\"base-2\"} -->\n<div style=\"padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)\" class=\"wp-block-popper-body has-base-2-background-color has-background\"><!-- wp:group {\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\"><!-- wp:image {\"width\":\"337px\",\"height\":\"auto\",\"sizeSlug\":\"large\",\"align\":\"center\"} -->\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"https://www.svgrepo.com/show/500037/stop.svg\" alt=\"\" style=\"width:337px;height:auto\"/></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":3} -->\n<h3 class=\"wp-block-heading has-text-align-center\">Ad Block detected!</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"fontSize\":\"13px\"}}} -->\n<p class=\"has-text-align-center\" style=\"font-size:13px\">Our website is made possible by displaying <br>ads to our visitors. Please support us <br>by whitelisting the website.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#e62828\"}},\"className\":\"close-popper\"} -->\n<div class=\"wp-block-button close-popper\"><a class=\"wp-block-button__link has-background wp-element-button\" style=\"background-color:#e62828\">I will whitelist this site</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:popper/body --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "Shows ad block after 30% scroll down",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "ad-block",
+      "popup"
+    ],
+    "name": "popper/62"
+  },
+  {
+    "id": 26,
+    "title": "Ad block",
+    "content": "<!-- wp:popper/popup {\"uuid\":26,\"devices\":[\"tablet\",\"mobile\",\"desktop\"],\"triggers\":[\"adBlock\"],\"settings\":{\"adBlock\":{\"scrollPercent\":43}},\"disableScroll\":true,\"overlayColor\":\"#636363\"} -->\n<dialog class=\"wp-block-popper-popup wp-block-popper wp-block-popper__shadow-md wp-block-popper__border-md no-scroll\" data-id=\"26\" data-modal=\"true\" data-triggers=\"[&quot;adBlock&quot;]\" data-devices=\"[&quot;tablet&quot;,&quot;mobile&quot;,&quot;desktop&quot;]\" data-settings=\"{&quot;adBlock&quot;:{&quot;scrollPercent&quot;:43}}\" data-align=\"center center\" id=\"popper-26\"><!-- wp:popper/button {\"position\":\"outside\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|contrast\"}}}},\"textColor\":\"contrast\",\"className\":\"is-style-regular\"} -->\n<div class=\"wp-block-popper__header\"><button class=\"has-contrast-color has-text-color has-link-color wp-block-popper__close wp-block-popper__close--outside is-style-regular\" aria-label=\"Close modal\"><svg viewBox=\"0 0 16 16\"><path d=\"M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414\"></path></svg></button></div>\n<!-- /wp:popper/button -->\n\n<!-- wp:popper/body {\"style\":{\"spacing\":{\"padding\":{\"top\":\"var:preset|spacing|20\",\"bottom\":\"var:preset|spacing|20\",\"left\":\"var:preset|spacing|20\",\"right\":\"var:preset|spacing|20\"}},\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|base-2\"}}}},\"backgroundColor\":\"contrast\",\"textColor\":\"base-2\"} -->\n<div style=\"padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)\" class=\"wp-block-popper-body has-base-2-color has-contrast-background-color has-text-color has-background has-link-color\"><!-- wp:group {\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\"><!-- wp:image {\"width\":\"276px\",\"height\":\"auto\",\"sizeSlug\":\"large\",\"align\":\"center\"} -->\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"https://www.svgrepo.com/show/288939/warning-error.svg\" alt=\"\" style=\"width:276px;height:auto\"/></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"#eb0808\"}}},\"color\":{\"text\":\"#eb0808\"}}} -->\n<h2 class=\"wp-block-heading has-text-align-center has-text-color has-link-color\" style=\"color:#eb0808\"><strong>Ad Block detected!</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Our website is made possible by <br>displaying ads to our visitors.<br>Please support us by whitelisting the website.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#eb0808\"}},\"className\":\"close-popper\"} -->\n<div class=\"wp-block-button close-popper\"><a class=\"wp-block-button__link has-background wp-element-button\" style=\"background-color:#eb0808\">Whitelist this site</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:popper/body --></dialog>\n<!-- /wp:popper/popup -->",
+    "description": "",
+    "blockTypes": [
+      "popper/popup"
+    ],
+    "pro": true,
+    "postTypes": [
+      "popper"
+    ],
+    "keywords": [],
+    "categories": [
+      "ad-block",
+      "popup"
+    ],
+    "name": "popper/26"
+  }
+]
